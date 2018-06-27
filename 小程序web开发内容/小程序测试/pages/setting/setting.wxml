@@ -1,0 +1,31 @@
+<view style = "height:600px;">
+  <view style = "color:#ffffff;">设定</view>
+  <view style = "padding-top:10px;"></view>
+  <view style = "display:flex; flex-direction:row;height:50px; line-height:50px;" >
+  <view style = "font-weight:bold;color:#ffffff;">时间结束时鼓励我</view>
+  <view style = "position:absolute; right:10px;">
+    <switch type = "switch" checked/>  
+  </view>
+  </view>
+  <view style = "height:1px; background-color:#f2f2f2;opacity:0.2"></view>
+  <view style = "display:flex; flex-direction:row; height:50px; line-height:50px;" >
+  <view style = "font-weight:bold;color:#ffffff;">自制鼓励语句</view>
+  <view style = "position:absolute; right:10px;">
+    <switch type = "switch" />
+  </view>
+  </view>
+  <view style = "padding-top:50px;"></view>
+  <view style = "height:1px; background-color:#f2f2f2;opacity:0.2"></view>
+  <view style = "padding-top:20px;"></view>
+  <view style = "font-weight:bold;color:#ffffff;">关于我们</view>
+  <view style = "padding-top:20px;"></view>
+  <view style = "height:1px; background-color:#f2f2f2;opacity:0.2"></view>
+  <view style = "padding-top:20px;"></view>
+  <view style = "font-weight:bold;color:#ffffff;"bindtap='toproblem'>常见问题</view>
+  <view style = "padding-top:20px;"></view>
+  <view style = "font-weight:bold;color:#ffffff;"bindtap='tosuggestion'>给我们建议</view>
+  <view style = "padding-top:20px;"></view>
+  <view style = "font-weight:bold;color:#ffffff;" bindtap='todeveloper'>开发人员</view>
+  <view style = "padding-top:20px;"></view>
+  <view style = "height:1px; background-color:#f2f2f2;opacity:0.2"></view>
+</view>

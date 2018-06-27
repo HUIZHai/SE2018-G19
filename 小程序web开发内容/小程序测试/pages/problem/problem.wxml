@@ -1,0 +1,17 @@
+<view>
+  <image class="icon_shumu1" src="/images/shumu1.png" />
+  <view class = "faqqq">
+    <view>问：专注森林软件有哪些功能呢？</view>
+    <view style = "padding-top:15px;"></view>
+    <view>答：专注森林功能，排行榜功能，个人动态</view>
+    <view style = "padding-top:35px;"></view>
+    <view>问：专注森林软件有什么用呢</view>
+    <view style = "padding-top:15px;"></view>
+    <view>答：专注森林这个小程序旨在帮助在大学里的我们控制自己，起到控制监督的作用，并可以养成自己的树林，在学习的同时也会存在一些成就感</view>
+    <view style = "padding-top:35px;"></view>
+    <view>问：专注森林跟其他类似的软件相比有优势吗？</view>
+    <view style = "padding-top:15px;"></view>
+    <view>答：没有。</view>
+    <view style = "padding-top:35px;"></view>
+  </view>
+</view>

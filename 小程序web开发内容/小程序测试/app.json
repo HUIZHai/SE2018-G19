@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/first/first",
+    "pages/problem/problem",
+    "pages/suggestion/suggestion",
+    "pages/developer/developer",
+    "pages/successfulsystem/successfulsystem",
+    "pages/systemevaluation/systemevaluation",
+    "pages/success/success",
+    "pages/selfevaluate/selfevaluate",
+    "pages/planttrees/planttrees",
+    "pages/tree/tree",
+    "pages/time/time",
+    "pages/myself/myself",
+    "pages/setting/setting",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#52A287",
+    "navigationBarTitleText": "专注森林",
+    "navigationBarTextStyle":"white"
+  }
+}

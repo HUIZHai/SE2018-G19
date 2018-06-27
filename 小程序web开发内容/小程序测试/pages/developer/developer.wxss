@@ -1,0 +1,25 @@
+page{
+  background-color: #52A287
+}
+.developer_person{
+  font-weight:bold;
+  text-align:center; 
+}
+.developer_lml{
+  font-weight:bold;
+  text-align:center; 
+}
+.developer_lyh{
+  font-weight:bold;
+  text-align:center; 
+}
+.developer_hyl{
+  font-weight:bold;
+  text-align:center; 
+}
+.icon_developer{  
+  width: 450rpx;  
+  height: 450rpx;  
+  display: inline-block;  
+  margin: 130rpx 160rpx 0rpx 160rpx ;
+} 

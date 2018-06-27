@@ -1,0 +1,10 @@
+/* pages/suggestion/suggestion.wxss */
+page{
+  background-color: #52A287
+}
+.section{
+  color: blue
+}
+.section_func{
+  color: blue
+}

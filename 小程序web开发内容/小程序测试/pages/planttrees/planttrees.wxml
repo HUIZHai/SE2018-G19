@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="container_content">
+    <view><input class="icon_input" placeholder="专注做好每一件事！" type="text"   adjust-position="Boolean" maxlength='11' /></view>
+    <image class="icon_shumu1" src="/images/shumu1.png" />
+    <view class="container timer {{isRuning ? 'timer--runing': ''}}" >
+      <view  class="content_time" wx:if="{{!completed}}">{{remainTimeText}}</view >
+    </view>
+  </view>
+  <button class='icon_endbutton' bindtap='modalcnt'>放弃</button>
+</view>
+

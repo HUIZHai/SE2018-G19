@@ -1,0 +1,33 @@
+<view>
+  <view bindtap="powerDrawer" data-statu="open"> 
+  <image class="icon_caidan" src="/images/菜单1.png" />
+  </view> 
+  <!--标语-->
+  <input class="icon_input" placeholder="专注做好每一件事！" type="text"   adjust-position="Boolean" maxlength='11' />
+  <!--图片-->
+  <image class="icon_shumu1" src="/images/shumu1.png" />
+  <input class="icon_inputtime" type='number' bindblur="changeWorkTime" maxlength='3'  value='20'>
+  </input>
+  <view class="icon_inputtime1">:00</view>
+</view>
+<!--mask-->
+<view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view> 
+<!--content-->
+<!--抽屉菜单-->
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}"> 
+      <!--drawer content-->
+      <view class="drawer_content"> 
+      <view class="drawer_title " bindtap='gotree'>
+      <image class="icon_image" src="/images/森林1.png"></image>
+      </view> 
+      <view class="drawer_title " bindtap='gotime'>
+      <image class="icon_image" src="/images/发展树1.png"></image>
+      </view> 
+
+      <view class="drawer_title" bindtap='gosetting'>
+      <image class="icon_image" src="/images/设置1.png"></image>
+      </view> 
+      </view> 
+</view> 
+<button class='icon_starbutton' bindtap='goptrees'>开始</button>
+

@@ -1,0 +1,23 @@
+<view>
+  <view class = "section">
+    <view class = "seciton_title">姓名</view>
+    <input name = "username" placeholder= "请输入姓名" />
+  </view>
+  <view style = "padding-top:25px;"></view>
+  <view class = "section">
+    <view class = "seciton_number">电话号码</view>
+    <input number = "usernumber" placeholder= "请输入电话号码" />
+  </view>
+  <view style = "padding-top:25px;"></view>
+  <view class = "section_func">请问您对我们的哪一项功能最不满意？</view>
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group>
+  <view style = "padding-top:25px;"></view>
+  <view class = "section">
+    <view class = "seciton_reason">原因是什么</view>
+    <input renson = "reason" placeholder= "请输入原因" />
+  </view>
+</view>

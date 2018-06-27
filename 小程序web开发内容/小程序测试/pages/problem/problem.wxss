@@ -1,0 +1,10 @@
+/* pages/problem/problem.wxss */
+page{
+  background-color: blanchedalmond
+}
+.icon_shumu1{  
+  width: 450rpx;  
+  height: 450rpx;  
+  display: inline-block;  
+  margin: 130rpx 160rpx 0rpx 160rpx ;
+} 

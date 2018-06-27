@@ -1,0 +1,8 @@
+<!--pages/systemevaluation/systemevaluation.wxml-->
+<view>
+  <image class="icon_kuwei" src="/images/kuwei.png" />
+  <view class='text'>解锁手机的次数: {{count}}次</view>
+  <view class='startime'>开始的时间为：{{startime}}</view>
+  <view class='endtime'>结束的时间为：{{endtime}}</view> 
+  <button class='returnbutton' bindtap='tofirst' plain='ture'>完成</button>
+</view>

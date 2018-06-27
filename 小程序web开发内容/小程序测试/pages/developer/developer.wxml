@@ -1,0 +1,10 @@
+<view>
+  <image class="icon_developer" src="/images/shumu1.png" />
+  <view class = "developer_person">开发人员</view>
+  <view style = "padding-top:50px;"></view>
+  <view class = "developer_lml">李梦雷</view>
+  <view style = "padding-top:50px;"></view>
+  <view class = "developer_lyh">李逸欢</view>
+  <view style = "padding-top:50px;"></view>
+  <view class = "developer_hyl">黄依伦</view>
+</view>

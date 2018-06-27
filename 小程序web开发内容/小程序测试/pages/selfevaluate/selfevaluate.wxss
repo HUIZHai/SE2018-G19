@@ -1,0 +1,66 @@
+.evaluate_item {
+  font-size: 40rpx;
+  color: black;
+  margin: 0rpx 110rpx 0rpx 110rpx; 
+}
+
+/*评价标题  */
+.evaluate_title {
+  display: inline-block;  
+}
+
+/*评价盒子  */
+.evaluate_box {
+  left: 220rpx;
+  width: 100%;
+  display: inline-block;  
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  
+
+/*星星评价的每个图片  */
+.star-image {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  src: "../../images/no-star.png";
+  margin: -90rpx 290rpx 0rpx 290rpx;
+}
+
+/*星星的左边和右边区域<点击左边半个星星，点击右边整个星星>  */
+.item {
+  position: absolute;
+  top: 0rpx;
+  width: 20rpx;
+  height: 40rpx;
+}
+
+/*按钮  */
+.submit_button{
+  height: 90rpx;
+  width: 330rpx;
+  margin: 60rpx 240rpx 0rpx 240rpx;
+  text-align: center; 
+  opacity: 0.8; 
+  font-size: 35rpx; 
+}
+page{
+  background-color: #52A287
+}
+.icon_kuwei{  
+  width: 400rpx;  
+  height: 400rpx;  
+  margin: 50rpx 210rpx 0rpx 210rpx ;
+}  
+.text{
+  font-size: 40rpx;
+  text-align: center; 
+  margin: -120rpx 0rpx 0rpx 0rpx ;
+}
